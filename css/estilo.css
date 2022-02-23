@@ -8,7 +8,7 @@
 
 	/* LOGO DE LA PAGINA */ 
 
-.logoAlvarado img {
+.logoAlvarado: img {
 	width: 100px;
 } 
 .navBar .logo {
@@ -16,6 +16,11 @@
 	height: 110px;
 	grid-column: 1 / 3;
 }
+
+.logo {
+	
+}
+
 	/* CIERRE LOGO */
 
 
@@ -27,7 +32,7 @@ li {
 }
 
 a {
-	color: ghostwhite;
+	color: whitesmoke;
 	text-decoration: none;
 }
 
@@ -85,6 +90,11 @@ main {
 
 .div_texto h1 {
 	color: whitesmoke;
+}
+
+.div_texto:hover h1 {
+	color: ;
+	transition: 2s;
 
 }
 
@@ -106,7 +116,7 @@ main {
 
 
 	/*INICIO FOOTER*/
-.footerRedes {
+.footerRedes{
 	display: grid;
 	height: 220px;
 	align-items: center;
@@ -121,13 +131,14 @@ main {
 }
 
 .footerRedes a img {
-	width: 70px; 
-	
+	width: 70px; 	
 }
 
-.fooRedes {
+.fooRedes:hover {
+	color: white;
 	margin-left: 50px;
 	grid-area: fooRedes;
+	transition: 2s;
 }
 
 .logoRedes {
@@ -148,7 +159,6 @@ body {
 .textoActividades h4 {
 	font-family: quintessential;
 }
-
 
 
 	/* hacete socio */ 
