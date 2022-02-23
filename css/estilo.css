@@ -11,6 +11,7 @@
 .logoAlvarado: img {
 	width: 100px;
 } 
+
 .navBar .logo {
 	width: 100px;
 	height: 110px;
@@ -68,7 +69,6 @@ main {
 
 
 .imagen_index img {
-	
 	width: 450px;
 }
 
@@ -93,9 +93,8 @@ main {
 }
 
 .div_texto:hover h1 {
-	color: ;
+	color: orangered;
 	transition: 2s;
-
 }
 
 .div_texto p {
@@ -132,6 +131,10 @@ main {
 
 .footerRedes a img {
 	width: 70px; 	
+}
+
+.fooRedes {
+	color: darkred;
 }
 
 .fooRedes:hover {
