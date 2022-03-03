@@ -3,45 +3,54 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CONTACTO</title>
+	<title>Contacto</title>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 
-	<link rel="stylesheet" href="../css/estilo.css">
-	<link rel="stylesheet" href="css/mediaQueries.css">
+    <link rel="stylesheet" href="../css/estilo.css">
 
 </head>
 <body>
-	<div>
-	<!-- inicio encabezado -->
-	<header class="header__nav">
-		
-	<!-- inicio nav -->
-			<nav class="navBar">
-				<!-- LOGO -->	
-				<a href="../index.html">
-				<img src="../assets/img/download 1.png" class="logo" alt="">
-				</a>
-				<!-- CIERRE LOGO -->
-				<!-- lista con viñetas -->				
-					<ul class="menu__nav nav--background">
-						<li class="nav__item nav__item-background"><a href="../index.html">HOME</a></li>
-						<li class="nav__item nav__item-color"><a href="#">CONTACTO</a></li>
-						<li class="nav__item nav__item-background"><a href="actividades.html">ACTIVIDADES</a></li>
-						<li class="nav__item nav__item-color"><a href="hacetesocio.html">HACETE SOCIO</a></li>
-						<li class="nav__item nav__item-background"><a href="noticias.html">NOTICIAS</a></li>	
-					</ul>				
-			</nav>
-	<!-- cierre nav -->	
-		</header>
-	<!-- cierre encabezado -->
-	<!-- inicio contenido -->
-		<div class="grid_container">	
-			<main>
+	 <div class="container-fluid">
+       <div class="row">
+         <div class="col-lg-12 col-xs-12">
+          <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
+            <div class="container">
+            	<a href="../index.html">
+              <img src="../assets/img/download 1.png" class="logoalvarado" alt="">
+              </a>
+              <a class="navbar-brand" href="../index.html">
+                 <span class="fs-5 text-primary fw-bold">Inicio</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                 <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" aria-current="page" href="actividades.html">Actividades</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" aria-current="page" href="hacetesocio.html">Hacete socio</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" aria-current="page" href="noticias.html">Noticias</a>
+                </li>
+               </ul>
+              </div>
+            </div>
+           </nav>
+          </div>
+        </div>
+     </div>
+    	<div class="container">
+    	<main>
+    		<h1 class="alvarado">UBICACION DEL CLUB</h1>
 				<div class="div_texto">
-					<h1>UBICACION DEL CLUB</h1>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7057.862675471321!2d-57.58612783874738!3d-38.00231648273211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sclub%20atletico%20alvarado!5e0!3m2!1ses!2sar!4v1643144525286!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 				</div>
 				<div class="div_texto">
@@ -54,8 +63,7 @@
 						</h4>
 					</b>
 				</div>
-			</main>
-		</div>
+		</main>
 	<!-- cierre contenido -->
 	<!-- inicio footer -->
 		
@@ -76,6 +84,8 @@
 			</div>	
 		</footer>	
 		</div>
-	<!-- cierre footer -->	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
